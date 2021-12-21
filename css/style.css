@@ -151,7 +151,6 @@ body{
 
 .team-item-title,
 .team-item-text{
-.team-item-text{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -173,7 +172,6 @@ body{
 address{
     font-style: inherit;
 }
-
 
 .address-info {
     color: var(--sixth-text-color);
