@@ -80,13 +80,27 @@ img{
     font-size: 26px;
     line-height: 1.19;
     color: var(--accent-text-color);
+    margin-right: 93px;
 }
 
 .header-logo-text{
     color:var(--second-text-color);
 }
 
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-item:not(:last-child),
+.contacts-item{
+    margin-right: 50px;
+}
+
 .header-list{
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 31px;
     color: var(--first-text-color);
 }
 
@@ -102,7 +116,10 @@ img{
     color: var(--accent-text-color);
 }
 
-
+.contacts-list{
+    display: flex;
+    margin-left: auto;
+}
 
 
 /* -----------------HERO---------------- */
@@ -111,8 +128,11 @@ img{
 
 .hero{
     background-color: var(--fifth-text-color);
-    padding-top: 200;
-    padding-bottom: 200;
+}
+
+.hero-container{
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title{
@@ -123,6 +143,9 @@ img{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    max-width: 696px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .hero-button{
@@ -134,7 +157,8 @@ img{
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--third-text-color);
-    cursor: pointer;
+    min-width: 200px;
+    min-height: 50px;
 }
 
 
@@ -148,14 +172,35 @@ img{
 /* -----------------OUR ADVANTAGES---------------- */
 
 
+.properties{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.properties-list{
+    text-align: left;
+    display: flex;
+}
+
+.properties-item{
+    max-width: 270px;
+}
+
+.properties-item:not(:last-child){
+    margin-right: 30px;
+}
 
 .properties-item-title{
     color: var(--first-text-color);
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
+.properties-item-text{
+    text-align: left;
+}
 
 /* -----------------WHAT WE DO?---------------- */
 
@@ -166,19 +211,49 @@ img{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    margin-bottom: 50px;
 }
 
+.doing-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
+.doing-item{
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+}
 
 
 
 /* -----------------OUR TEAM---------------- */
 
+.team-container{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
+.team-item{
+    width: calc(100% / 4 - 30px);
+    margin-left: 30px;
+}
 
 .team-item-title{
     font-weight: 500;
+    margin-top: 30px;
     color: var(--first-text-color);
-    }
+}
+
+.team-item-text{
+    margin-top: 10px;
+}
 
 .team-item-title,
 .team-item-text{
@@ -193,6 +268,19 @@ img{
 
 .footer{
     background-color: var(--fifth-text-color);
+}
+
+.footer-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.address-list{
+    margin-top: 20px;
+}
+
+.address-item:not(:last-child){
+    margin-bottom: 9px;
 }
 
 .footer-logo-text,
@@ -215,9 +303,20 @@ address{
 
 
 
+
 /* ----------------------------------PORTFOLIO------------------------------------ */
 
+.portfolio{
+    margin-top: 94px;
+}
 
+/* ----------------------------------PORTFOLIO BUTTONS------------------------------------ */
+
+.filter-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
 
 .buttons{
     font-family: inherit;
@@ -225,7 +324,9 @@ address{
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px 6px 22px;
 }
 
 .buttons:hover,
@@ -235,12 +336,36 @@ address{
     color: var(--third-text-color);
 }
 
+.filter-item:not(:last-child){
+    margin-right: 8px;
+}
+
+/* ----------------------------------PORTFOLIO PRODUCTS------------------------------------ */
+
+
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 103px;
+    margin-left: -30px;
+    margin-bottom: -30px;
+    
+}
+
+.portfolio-item{
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
 .portfolio-item-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
     color: var(--first-text-color);
+    margin-top: 20px;
 }
 
 .portfolio-item-text{
