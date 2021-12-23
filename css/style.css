@@ -5,6 +5,7 @@
     --fourth-text-color: #188CE8;
     --fifth-text-color: #2F303A;
     --sixth-text-color: rgba(255, 255, 255, 0.6);
+    --first-border-color: #EEEEEE;
     --accent-text-color: #2196F3;
     --main-text-color: #757575;
 
@@ -357,6 +358,7 @@ address{
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
+    border: 1px solid var(--first-border-color);
 }
 
 .portfolio-item-title{
