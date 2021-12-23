@@ -71,6 +71,10 @@ img{
     margin: 0 auto;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* -----------------HEADER---------------- */
 
 
@@ -173,10 +177,6 @@ img{
 /* -----------------OUR ADVANTAGES---------------- */
 
 
-.properties{
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
 
 .properties-list{
     text-align: left;
@@ -230,10 +230,6 @@ img{
 
 /* -----------------OUR TEAM---------------- */
 
-.team-container{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .team-list{
     display: flex;
@@ -307,9 +303,7 @@ address{
 
 /* ----------------------------------PORTFOLIO------------------------------------ */
 
-.portfolio{
-    margin-top: 94px;
-}
+
 
 /* ----------------------------------PORTFOLIO BUTTONS------------------------------------ */
 
