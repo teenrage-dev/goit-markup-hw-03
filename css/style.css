@@ -164,6 +164,7 @@ img{
     color: var(--third-text-color);
     min-width: 200px;
     min-height: 50px;
+    border-radius: 4px;
 }
 
 
